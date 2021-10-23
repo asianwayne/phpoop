@@ -11,7 +11,7 @@ __desruct（）{} 和construct 是一样 但是是最后执行的。
 
 
 <?php 
-//__construct 是 magic methods;
+//__construct 和desruct() 是 magic methods;
 //abstract methods    无法实例化 只能用作extends  是抽象类
 class Customer{
 	private $uid = 1;  //this set the valuble to default, public you can access the propety from outside of the class
